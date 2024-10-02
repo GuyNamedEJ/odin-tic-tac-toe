@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="new-game-menu">
+        <div class="logo">
+            <img src="assets/logo.svg" alt="">
+        </div>
+
+        <div class="pick-mark-container">
+            <h2 class="pick-title">Pick Player 1's mark</h2>
+            <div class="marks-container">
+                <div class="mark icon-x">
+                    <img src="assets/icon-x.svg" alt="">
+                </div>
+                <div class="mark">
+                    <img src="assets/icon-o.svg" alt="">
+                </div>
+            </div>
+            <p class="pick-tip">Remember: X goes first</p>
+        </div>
+
+        <div class="btn-container">
+            <button>New Game (Vs CPU)</button>
+            <button>New Game (Vs Player)</button>
+        </div>
+      </section>
+
+      <section class="game-board-container">
+        <div id="game-board" class="game-board">
+
+        </div>
+        <!-- Game board start -->
+
+        <!-- x/o icon -->
+        turn X (You)
+        <!-- Your score -->
+        Ties
+        <!-- Ties score -->
+        X (CPU)
+        <!-- CPU score -->
+
+        Oh no, you lost You won! Player
+        <!-- 1/2 -->
+        wins!
+
+        <!-- x/o icon -->
+        takes the round Round tied Restart game? Quit Next round No, cancel Yes,
+        restart
+
+        <!-- Game board end -->
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
